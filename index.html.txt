@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendyCart - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TrendyCart</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to TrendyCart!</h2>
+        <p>Your one-stop shop for trendy shoes, clothes, and watches.</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </section>
+
+    <section id="shop" class="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="shoe.jpg" alt="Shoe">
+            <h3>Stylish Shoe</h3>
+            <p>$49.99</p>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="clothes.jpg" alt="Clothes">
+            <h3>Fashionable T-shirt</h3>
+            <p>$19.99</p>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="watch.jpg" alt="Watch">
+            <h3>Elegant Watch</h3>
+            <p>$99.99</p>
+            <a href="#">Buy Now</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About TrendyCart</h2>
+        <p>TrendyCart offers a curated collection of the latest fashion trends. Whether you're looking for shoes, clothes, or watches, we have something for everyone.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at: <a href="mailto:support@trendcart.com">support@trendcart.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TrendyCart. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
